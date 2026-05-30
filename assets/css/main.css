@@ -197,7 +197,7 @@ section { padding: 90px 0; }
 .nav-logo img {
   height: 48px;
   width: auto;
-  filter: brightness(0) invert(1);
+  border-radius: 8px;
 }
 .nav-logo-text {
   display: flex;
@@ -929,10 +929,16 @@ section { padding: 90px 0; }
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
   transition: all var(--transition);
 }
-.social-link:hover { background: var(--gold); border-color: var(--gold); color: var(--navy-dark); }
+.social-link svg {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255,255,255,0.75);
+  transition: fill var(--transition);
+}
+.social-link:hover { background: var(--gold); border-color: var(--gold); }
+.social-link:hover svg { fill: var(--navy-dark); }
 
 .footer-col h4 {
   font-family: var(--font-body);
