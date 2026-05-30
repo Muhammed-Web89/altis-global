@@ -1,0 +1,113 @@
+{
+  "lang": "uz",
+  "dir": "ltr",
+  "nav": {
+    "home": "Bosh sahifa",
+    "projects": "Loyihalar",
+    "services": "Xizmatlar",
+    "about": "Biz haqimizda",
+    "contact": "Bog'lanish",
+    "cta": "Maslahat olish"
+  },
+  "hero": {
+    "tagline": "Turkiyada xavfsiz investitsiya, orzuingizdagi uy siz kutmoqda",
+    "subtitle": "Chet el investorlari uchun keng qamrovli ko'chmas mulk maslahatlari — mulk sotib olishdan Turk fuqaroligiga qadar har qadamda yoningizda.",
+    "btn_projects": "Loyihalarni ko'rish",
+    "btn_contact": "Bepul maslahat"
+  },
+  "services": {
+    "title": "Xizmatlarimiz",
+    "subtitle": "Turkiyada mulk sotib olish uchun kerak bo'lgan hamma narsa",
+    "realty_title": "Ko'chmas mulk agentligi",
+    "realty_desc": "Hamkor uy-joy loyihalarimizdan eng mos kvartirany topish uchun keng qamrovli xizmat ko'rsatamiz. Har bir loyihani shaxsan tekshirganmiz.",
+    "consulting_title": "Investitsiya maslahati",
+    "consulting_desc": "Turkiyadagi ko'chmas mulk investitsiyalarining huquqiy, moliyaviy va soliq jihatlarida mutaxassis jamoamiz bilan to'g'ri qaror qabul qiling.",
+    "citizenship_title": "Fuqarolik maslahati",
+    "citizenship_desc": "400 000 dollar va undan yuqori ko'chmas mulk investitsiyasi orqali Turk fuqaroligi uchun ariza berishda to'liq huquqiy yordam va jarayon boshqaruvi.",
+    "transfer_title": "Mehmonxona va transfer",
+    "transfer_desc": "Istanbulga kelishingizdan kalit topshirishgacha — VIP transfer, mehmonxona bron qilish va butun tashrif davomida tarjimonlik xizmatları.",
+    "legal_title": "Huquqiy yordam",
+    "legal_desc": "Tajribali huquqiy jamoamiz shartnomalarni ko'rib chiqish, mulkchilik huquqini ro'yxatdan o'tkazish, notarial tasdiqlash va soliq raqami olish bilan shug'ullanadi.",
+    "translation_title": "Tarjimonlik va hujjatlar",
+    "translation_desc": "O'zbek, rus, turk va ingliz tillarida professional tarjimonlik va rasmiy hujjatlarni tayyorlash xizmatlari."
+  },
+  "projects": {
+    "title": "Tavsiya etilgan loyihalar",
+    "subtitle": "Ehtiyotkorlik bilan tanlangan turar-joy loyihalari",
+    "view_all": "Barcha loyihalar",
+    "details": "Batafsil",
+    "price_from": "Narx",
+    "from": "dan",
+    "rooms": "Xona",
+    "area": "m²",
+    "delivery": "Topshirish",
+    "location": "Joylashuv"
+  },
+  "why": {
+    "title": "Nima uchun Altis Global?",
+    "subtitle": "Ishonch, shaffoflik va uzluksiz qo'llab-quvvatlash",
+    "stat1_val": "500+",
+    "stat1_label": "Mamnun mijoz",
+    "stat2_val": "50+",
+    "stat2_label": "Hamkor loyiha",
+    "stat3_val": "5+",
+    "stat3_label": "Yil tajriba",
+    "stat4_val": "4",
+    "stat4_label": "Til",
+    "r1_title": "Joyida tekshirish",
+    "r1_desc": "Barcha loyihalarni shaxsan borib tekshirganmiz. Noto'g'ri ma'lumot berish xavfi nol.",
+    "r2_title": "Shaffof narxlash",
+    "r2_desc": "Yashirin to'lovlar yo'q. Komissiya ma'lumotlari boshidan aniqlanadi.",
+    "r3_title": "Sotuvdan keyingi qo'llab-quvvatlash",
+    "r3_desc": "Mulk hujjatini olganingizdan keyin ham yoningizda bo'lamiz — ruxsatnoma, ijara boshqaruvi va fuqarolik jarayoni.",
+    "r4_title": "Ko'p tilli jamoa",
+    "r4_desc": "Jamoamiz turk, o'zbek, rus va ingliz tillarida gaplashadi — savollaringizga darhol javob beradi."
+  },
+  "process": {
+    "title": "Biz qanday ishlaymiz",
+    "subtitle": "Mulk egaligiga erishish yo'lingiz 4 qadamda",
+    "step1_title": "Bepul maslahat",
+    "step1_desc": "WhatsApp yoki telefon orqali biz bilan bog'laning. Byudjet, istaklaringiz va investitsiya maqsadlaringizni birga belgilaymiz.",
+    "step2_title": "Loyiha tanlash",
+    "step2_desc": "Ehtiyojlaringizga mos loyihalarni taqdim etamiz. Video turlar, virtual sayohatlar va batafsil ma'lumotlarni baham ko'ramiz.",
+    "step3_title": "Turkiyaga tashrif",
+    "step3_desc": "Istanbulga kelishingizda VIP transfer bilan kutib olamiz. Loyihalarni shaxsan borib ko'rasiz va yoqqan kvartarani band qilamiz.",
+    "step4_title": "Hujjatlar va ro'yxatdan o'tish",
+    "step4_desc": "Xarid shartnomasi, to'lov rejasi, mulk hujjatini topshirish va xohlasangiz fuqarolik uchun ariza — har qadamda yoningizda."
+  },
+  "testimonials": {
+    "title": "Mijozlarimiz nima deydi",
+    "subtitle": "Muvaffaqiyatli investorlarning tajribasi"
+  },
+  "cta": {
+    "title": "Turkiyada mulk egasi bo'lishga tayyormisiz?",
+    "subtitle": "Bugun bepul maslahat oling. Mutaxassis jamoamiz barcha savollaringizga javob berishga tayyor.",
+    "whatsapp": "WhatsApp orqali yozing",
+    "call": "Hozir qo'ng'iroq qiling"
+  },
+  "footer": {
+    "desc": "Chet el investorlariga Turkiyada mulk sotib olish, investitsiya va fuqarolik bo'yicha keng qamrovli maslahat xizmatlari ko'rsatamiz.",
+    "links_title": "Tezkor havolalar",
+    "services_title": "Xizmatlarimiz",
+    "contact_title": "Bog'lanish",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "address": "Kayabaşı Mah. Ulubatlı Hasan Cad. No 2, Başakşehir, Istanbul"
+  },
+  "contact": {
+    "title": "Biz bilan bog'laning",
+    "subtitle": "Savollaringiz uchun murojaat qiling",
+    "name": "To'liq ism",
+    "phone": "Telefon",
+    "country": "Mamlakat",
+    "message": "Xabaringiz",
+    "send": "Yuborish",
+    "whatsapp_msg": "Salom, Altis Global veb-saytidan yozmoqdaman. Turkiyadagi uy-joy loyihalari haqida ma'lumot olmoqchiman."
+  },
+  "about": {
+    "title": "Biz haqimizda",
+    "subtitle": "Ishonchli hamkoringiz",
+    "text1": "Altis Global'da Markaziy Osiyo turk respublikalari fuqarolariga — ayniqsa O'zbekistondagi investorlarga — Turkiyada mulk sotib olishda keng qamrovli yo'riqnoma beramiz.",
+    "text2": "Başakşehir'dagi ofisimizdan xizmat ko'rsatayotgan mutaxassislar jamoamiz til to'sig'i, huquqiy noaniqlik va madaniy farqlar tufayli chet el xaridorlari duch keladigan qiyinchiliklarni bartaraf etish uchun tashkil etilgan.",
+    "text3": "Biz shunchaki uy sotmaymiz. Sizni to'g'ri loyiha bilan bog'laymiz va sayohat va turar joy tashkilotidan mulk hujjatini topshirish hamda fuqarolik uchun arizagacha har qadamda yoningizda bo'lamiz."
+  }
+}

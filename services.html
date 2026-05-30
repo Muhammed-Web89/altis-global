@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="tr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hizmetler — Altis Global</title>
+  <meta name="description" content="Altis Global hizmetleri: Emlak aracılığı, yatırım danışmanlığı, Türk vatandaşlığı, otel & transfer, hukuki destek, tercümanlık." />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png" />
+  <style>
+    .service-full {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+      margin-bottom: 80px;
+      padding-bottom: 80px;
+      border-bottom: 1px solid var(--border);
+    }
+    .service-full:last-child { border-bottom: none; margin-bottom: 0; }
+    .service-full.reverse { direction: rtl; }
+    .service-full.reverse > * { direction: ltr; }
+    .service-full-img {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 4/3;
+    }
+    .service-full-img img { width: 100%; height: 100%; object-fit: cover; }
+    .service-num {
+      font-family: var(--font-head);
+      font-size: 5rem;
+      font-weight: 700;
+      color: rgba(201,168,76,0.15);
+      line-height: 1;
+      margin-bottom: -20px;
+    }
+    .service-full-text h2 { color: var(--navy-dark); margin-bottom: 16px; font-size: 1.8rem; }
+    .service-full-text p { margin-bottom: 14px; line-height: 1.8; }
+    .service-bullets { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
+    .service-bullet {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      font-size: 0.93rem;
+      color: var(--text-mid);
+    }
+    .service-bullet::before { content: '✦'; color: var(--gold); margin-top: 2px; flex-shrink: 0; }
+    @media (max-width: 768px) {
+      .service-full { grid-template-columns: 1fr; }
+      .service-full.reverse { direction: ltr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar" class="scrolled">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/images/logo.png" alt="Altis Global" />
+      <div class="nav-logo-text"><span class="brand-name">ALTIS GLOBAL</span><span class="brand-sub">Premium Real Estate</span></div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html"    data-i18n="nav.home">Ana Sayfa</a></li>
+      <li><a href="projects.html" data-i18n="nav.projects">Projeler</a></li>
+      <li><a href="services.html" data-i18n="nav.services" class="active">Hizmetler</a></li>
+      <li><a href="about.html"    data-i18n="nav.about">Hakkımızda</a></li>
+      <li><a href="contact.html"  data-i18n="nav.contact">İletişim</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn" id="langBtn"><span class="flag">🇹🇷</span><span class="lang-code">TR</span><span class="chevron">▾</span></button>
+        <div class="lang-dropdown" id="langDropdown">
+          <div class="lang-option" data-lang="tr"><span class="flag">🇹🇷</span> Türkçe</div>
+          <div class="lang-option" data-lang="uz"><span class="flag">🇺🇿</span> O'zbekcha</div>
+          <div class="lang-option" data-lang="ru"><span class="flag">🇷🇺</span> Русский</div>
+          <div class="lang-option" data-lang="en"><span class="flag">🇬🇧</span> English</div>
+        </div>
+      </div>
+      <a href="contact.html" class="btn btn-primary nav-cta" data-i18n="nav.cta">Danışmanlık Al</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html"    data-i18n="nav.home">Ana Sayfa</a>
+  <a href="projects.html" data-i18n="nav.projects">Projeler</a>
+  <a href="services.html" data-i18n="nav.services">Hizmetler</a>
+  <a href="about.html"    data-i18n="nav.about">Hakkımızda</a>
+  <a href="contact.html"  data-i18n="nav.contact">İletişim</a>
+  <a href="contact.html" class="btn btn-primary mobile-cta" data-i18n="nav.cta">Danışmanlık Al</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html" data-i18n="nav.home">Ana Sayfa</a> / <span data-i18n="nav.services">Hizmetler</span>
+    </div>
+    <h1 data-i18n="services.title">Hizmetlerimiz</h1>
+    <p data-i18n="services.subtitle">Türkiye'de konut satın alma sürecinde ihtiyaç duyduğunuz her şeyi sunuyoruz</p>
+  </div>
+</div>
+
+<!-- SERVICES DETAIL -->
+<section style="background:var(--cream);">
+  <div class="container">
+
+    <!-- 1. Emlak -->
+    <div class="service-full reveal">
+      <div class="service-full-img">
+        <img src="assets/images/project-basaksehir.jpg" alt="Emlak Aracılığı" />
+      </div>
+      <div class="service-full-text">
+        <div class="service-num">01</div>
+        <span class="section-label" data-i18n="services.realty_title">Emlak Aracılığı</span>
+        <h2 data-i18n="services.realty_title">Emlak Aracılığı Hizmeti</h2>
+        <p>Altis Global olarak, Türkiye'nin en seçkin konut projelerini bizzat inceliyor ve özenle müşterilerimize sunuyoruz. Yabancı alıcının ihtiyaçlarını, bütçesini ve yaşam beklentilerini dinleyerek en doğru projeyi belirliyoruz.</p>
+        <p>Rakip firmaların yüzlerce proje listelediği bir sektörde biz niş yaklaşımı benimsiyoruz: Az ama öz, kaliteli projelerle çalışıyoruz. Bu sayede her projemizi içten tanıyoruz.</p>
+        <div class="service-bullets">
+          <div class="service-bullet">Yerinde proje ziyareti ve değerlendirme</div>
+          <div class="service-bullet">1+1'den 4+1'e geniş daire seçenekleri</div>
+          <div class="service-bullet">İstanbul, Antalya, Bursa başta 10+ şehir</div>
+          <div class="service-bullet">Taksitli ve peşin ödeme seçenekleri</div>
+          <div class="service-bullet">Satın alma sonrası destek</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2. Yatırım -->
+    <div class="service-full reverse reveal">
+      <div class="service-full-img">
+        <img src="assets/images/project-antalya.jpg" alt="Yatırım Danışmanlığı" />
+      </div>
+      <div class="service-full-text">
+        <div class="service-num">02</div>
+        <span class="section-label" data-i18n="services.consulting_title">Yatırım Danışmanlığı</span>
+        <h2 data-i18n="services.consulting_title">Yatırım Danışmanlığı</h2>
+        <p>Türkiye'deki gayrimenkul piyasası yabancı yatırımcılar için büyük fırsatlar sunmaktadır. Ancak doğru proje, doğru bölge ve doğru zamanlama hayati önem taşır.</p>
+        <p>Uzman ekibimiz, yatırım getirisi analizinden vergi planlamasına kadar her konuda yanınızdadır. Kira geliri, değer artışı ve vatandaşlık kriterleri açısından en verimli projeleri birlikte değerlendiriyoruz.</p>
+        <div class="service-bullets">
+          <div class="service-bullet">ROI analizi ve yatırım geri dönüş hesabı</div>
+          <div class="service-bullet">Bölge değerlendirmesi ve gelecek projeksiyonu</div>
+          <div class="service-bullet">Türkiye'de mülk edinme prosedürleri</div>
+          <div class="service-bullet">Vergi ve masraf hesaplamaları</div>
+          <div class="service-bullet">Kira geliri yönetimi seçenekleri</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Vatandaşlık -->
+    <div class="service-full reveal">
+      <div class="service-full-img">
+        <img src="assets/images/hero-istanbul.jpg" alt="Türk Vatandaşlığı" />
+      </div>
+      <div class="service-full-text">
+        <div class="service-num">03</div>
+        <span class="section-label" data-i18n="services.citizenship_title">Vatandaşlık</span>
+        <h2 data-i18n="services.citizenship_title">Türk Vatandaşlığı Danışmanlığı</h2>
+        <p>Türkiye, 400.000 ABD Doları ve üzeri gayrimenkul yatırımı yapan yabancı uyruklulara Türk vatandaşlığı tanımaktadır. Bu süreç doğru yönetildiğinde olukça hızlı ve sorunsuz tamamlanabilmektedir.</p>
+        <p>Deneyimli avukatlarımız ve uzman ekibimiz, başvurudan pasaport teslim törenine kadar tüm süreci sizin adınıza yönetir.</p>
+        <div class="service-bullets">
+          <div class="service-bullet">Vatandaşlığa uygun proje seçimi</div>
+          <div class="service-bullet">Gerekli belgelerin hazırlanması</div>
+          <div class="service-bullet">Avukatlık ve notere eşlik</div>
+          <div class="service-bullet">Vergi numarası ve banka hesabı açılışı</div>
+          <div class="service-bullet">Başvuru takibi ve pasaport teslimi</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 4. Transfer & Otel -->
+    <div class="service-full reverse reveal">
+      <div class="service-full-img">
+        <img src="assets/images/project-esenyurt.jpg" alt="VIP Transfer ve Otel" />
+      </div>
+      <div class="service-full-text">
+        <div class="service-num">04</div>
+        <span class="section-label" data-i18n="services.transfer_title">Transfer & Otel</span>
+        <h2 data-i18n="services.transfer_title">VIP Transfer & Otel Hizmetleri</h2>
+        <p>Konut satın alma sürecini kolaylaştırmak adına İstanbul'a gelen tüm müşterilerimize VIP karşılama ve transfer hizmetleri sunuyoruz. Havalimanından otelinizdeki odanıza kadar her şey organize edilmiş şekilde sizi bekler.</p>
+        <div class="service-bullets">
+          <div class="service-bullet">Havalimanı VIP karşılama ve transfer</div>
+          <div class="service-bullet">Başakşehir bölgesinde otel rezervasyonu</div>
+          <div class="service-bullet">Proje ziyaretleri için özel araç ve şoför</div>
+          <div class="service-bullet">Türkçe, Özbekçe, Rusça tercümanlık</div>
+          <div class="service-bullet">Şehir turu ve restoran önerileri</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 & 6 side by side -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:0;" class="reveal">
+      <div class="service-card">
+        <div class="service-icon">⚖️</div>
+        <h3 class="service-title" data-i18n="services.legal_title">Hukuki Destek</h3>
+        <p class="service-desc" data-i18n="services.legal_desc">Sözleşme incelemesi, tapu işlemleri, noter onayı ve vergi numarası çıkartma gibi tüm resmi süreçlerde deneyimli avukat kadromuz hizmetinizde.</p>
+        <div class="service-bullets" style="margin-top:16px;">
+          <div class="service-bullet">Satış sözleşmesi inceleme ve imza</div>
+          <div class="service-bullet">Tapu Müdürlüğü işlemleri</div>
+          <div class="service-bullet">Vergi kimlik numarası (VKN)</div>
+          <div class="service-bullet">Banka hesabı açılışı desteği</div>
+        </div>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🗣️</div>
+        <h3 class="service-title" data-i18n="services.translation_title">Tercümanlık & Evrak</h3>
+        <p class="service-desc" data-i18n="services.translation_desc">Özbekçe, Rusça, Türkçe ve İngilizce dillerinde tercümanlık ve resmi belge hazırlama hizmetleri sunuyoruz.</p>
+        <div class="service-bullets" style="margin-top:16px;">
+          <div class="service-bullet">Yeminli tercüme hizmetleri</div>
+          <div class="service-bullet">Apostil ve noter onay desteği</div>
+          <div class="service-bullet">Sözleşme çevirisi</div>
+          <div class="service-bullet">Resmi yazışma desteği</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="container cta-inner">
+    <h2 data-i18n="cta.title">Türkiye'de Konut Sahibi Olmaya Hazır mısınız?</h2>
+    <p data-i18n="cta.subtitle">Bugün ücretsiz danışmanlık alın. Uzman ekibimiz tüm sorularınızı yanıtlamak için hazır.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/905369700989?text=Merhaba%2C%20hizmetleriniz%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" class="btn btn-navy btn-lg" data-i18n="cta.whatsapp">💬 WhatsApp ile Yazın</a>
+      <a href="tel:+905369700989" class="btn btn-outline btn-lg" data-i18n="cta.call">📞 Hemen Arayın</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="nav-logo">
+          <img src="assets/images/logo.png" alt="Altis Global" style="height:44px;filter:brightness(0) invert(1);" />
+          <div class="nav-logo-text"><span class="brand-name">ALTIS GLOBAL</span><span class="brand-sub">Premium Real Estate</span></div>
+        </div>
+        <p data-i18n="footer.desc">Yabancı yatırımcılara Türkiye'de konut alımı, yatırım ve vatandaşlık konularında kapsamlı danışmanlık.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-link">📸</a><a href="#" class="social-link">▶️</a>
+          <a href="https://wa.me/905369700989" class="social-link">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.links_title">Sayfalar</h4>
+        <ul>
+          <li><a href="index.html"    data-i18n="nav.home">Ana Sayfa</a></li>
+          <li><a href="projects.html" data-i18n="nav.projects">Projeler</a></li>
+          <li><a href="services.html" data-i18n="nav.services">Hizmetler</a></li>
+          <li><a href="about.html"    data-i18n="nav.about">Hakkımızda</a></li>
+          <li><a href="contact.html"  data-i18n="nav.contact">İletişim</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.services_title">Hizmetler</h4>
+        <ul>
+          <li><a href="services.html" data-i18n="services.realty_title">Emlak</a></li>
+          <li><a href="services.html" data-i18n="services.consulting_title">Yatırım</a></li>
+          <li><a href="services.html" data-i18n="services.citizenship_title">Vatandaşlık</a></li>
+          <li><a href="services.html" data-i18n="services.transfer_title">Transfer</a></li>
+          <li><a href="services.html" data-i18n="services.legal_title">Hukuk</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4 data-i18n="footer.contact_title">İletişim</h4>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📍</span><p data-i18n="footer.address">Kayabaşı, Başakşehir, İstanbul</p></div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">📞</span><a href="tel:+905369700989">+90 536 970 09 89</a></div>
+        <div class="footer-contact-item"><span class="footer-contact-icon">💬</span><a href="https://wa.me/905369700989" target="_blank">WhatsApp</a></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Altis Global. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/905369700989" target="_blank" class="whatsapp-float">💬</a>
+<script src="assets/js/translations.js"></script>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

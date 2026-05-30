@@ -1,0 +1,113 @@
+{
+  "lang": "tr",
+  "dir": "ltr",
+  "nav": {
+    "home": "Ana Sayfa",
+    "projects": "Projeler",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "cta": "Danışmanlık Al"
+  },
+  "hero": {
+    "tagline": "Türkiye'de Güvenli Yatırım, Hayalinizdeki Konut",
+    "subtitle": "Yabancı yatırımcılar için kapsamlı emlak danışmanlığı — konut alımından Türk vatandaşlığına kadar her adımda yanınızdayız.",
+    "btn_projects": "Projeleri İncele",
+    "btn_contact": "Ücretsiz Danışmanlık"
+  },
+  "services": {
+    "title": "Hizmetlerimiz",
+    "subtitle": "Türkiye'de konut satın alma sürecinde ihtiyaç duyduğunuz her şeyi sunuyoruz",
+    "realty_title": "Emlak Aracılığı",
+    "realty_desc": "Anlaşmalı olduğumuz seçkin konut projelerinden size en uygun daireyi bulmak için kapsamlı hizmet sunuyoruz. Her projeyi bizzat inceledik.",
+    "consulting_title": "Yatırım Danışmanlığı",
+    "consulting_desc": "Türkiye'de gayrimenkul yatırımlarının hukuki, finansal ve vergisel boyutlarında uzman ekibimizle doğru kararı birlikte alıyoruz.",
+    "citizenship_title": "Vatandaşlık Danışmanlığı",
+    "citizenship_desc": "400.000 $ ve üzeri değerindeki gayrimenkul yatırımıyla Türk vatandaşlığı başvurusunda hukuki destek ve tam süreç yönetimi sunuyoruz.",
+    "transfer_title": "Otel & Transfer Hizmetleri",
+    "transfer_desc": "İstanbul'a gelişinizden konut teslim törenine kadar VIP transfer, otel rezervasyonu ve tercümanlık hizmetleriyle yanınızdayız.",
+    "legal_title": "Hukuki Destek",
+    "legal_desc": "Sözleşme incelemesi, tapu işlemleri, noter onayı ve vergi numarası çıkartma gibi tüm resmi süreçlerde deneyimli avukat kadromuz hizmetinizde.",
+    "translation_title": "Tercümanlık & Evrak",
+    "translation_desc": "Özbekçe, Rusça, Türkçe ve İngilizce dillerinde tercümanlık ve resmi belge hazırlama hizmetleri sunuyoruz."
+  },
+  "projects": {
+    "title": "Öne Çıkan Projeler",
+    "subtitle": "Özenle seçilmiş konut projeleri",
+    "view_all": "Tüm Projeleri Gör",
+    "details": "Detayları İncele",
+    "price_from": "Fiyat",
+    "from": "den",
+    "rooms": "Oda",
+    "area": "m²",
+    "delivery": "Teslim",
+    "location": "Konum"
+  },
+  "why": {
+    "title": "Neden Altis Global?",
+    "subtitle": "Güven, şeffaflık ve kesintisiz destek",
+    "stat1_val": "500+",
+    "stat1_label": "Mutlu Müşteri",
+    "stat2_val": "50+",
+    "stat2_label": "Anlaşmalı Proje",
+    "stat3_val": "5+",
+    "stat3_label": "Yıl Tecrübe",
+    "stat4_val": "4",
+    "stat4_label": "Dil Desteği",
+    "r1_title": "Yerinde İnceleme",
+    "r1_desc": "Tüm projeleri bizzat ziyaret ederek inceledik. Yanlış bilgi verme riskimiz sıfır.",
+    "r2_title": "Şeffaf Fiyatlama",
+    "r2_desc": "Gizli ücret yok. Komisyon bilgileri başından netleştirilir.",
+    "r3_title": "Satış Sonrası Destek",
+    "r3_desc": "Tapunuzu aldıktan sonra da yanınızdayız. İskân, kira yönetimi ve vatandaşlık sürecinde destek.",
+    "r4_title": "Çok Dilli Ekip",
+    "r4_desc": "Türkçe, Özbekçe, Rusça ve İngilizce konuşan uzman ekibimiz her sorunuza anında cevap verir."
+  },
+  "process": {
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Konut sahibi olma yolculuğunuz 4 adımda",
+    "step1_title": "Ücretsiz Danışma",
+    "step1_desc": "WhatsApp veya telefon üzerinden bize ulaşın. Bütçenizi, isteklerinizi ve yatırım hedeflerinizi birlikte belirleyelim.",
+    "step2_title": "Proje Seçimi",
+    "step2_desc": "İhtiyaçlarınıza uygun projeleri sunuyoruz. Video turları, sanal gezinti ve detaylı bilgileri paylaşıyoruz.",
+    "step3_title": "Türkiye Ziyareti",
+    "step3_desc": "İstanbul'a gelişinizde VIP transfer karşılama. Projeleri bizzat ziyaret ediyor, beğendiğiniz daireyi rezerve ediyorsunuz.",
+    "step4_title": "Tapu & Tescil",
+    "step4_desc": "Satın alma sözleşmesi, ödeme planı, tapu devri ve isterseniz vatandaşlık başvurusu — her adımda yanınızdayız."
+  },
+  "testimonials": {
+    "title": "Müşterilerimiz Ne Diyor?",
+    "subtitle": "Başarılı yatırımcıların deneyimleri"
+  },
+  "cta": {
+    "title": "Türkiye'de Konut Sahibi Olmaya Hazır mısınız?",
+    "subtitle": "Bugün ücretsiz danışmanlık alın. Uzman ekibimiz tüm sorularınızı yanıtlamak için hazır.",
+    "whatsapp": "WhatsApp ile Yazın",
+    "call": "Hemen Arayın"
+  },
+  "footer": {
+    "desc": "Yabancı yatırımcılara Türkiye'de konut alımı, yatırım ve vatandaşlık konularında kapsamlı danışmanlık hizmetleri sunuyoruz.",
+    "links_title": "Hızlı Bağlantılar",
+    "services_title": "Hizmetlerimiz",
+    "contact_title": "İletişim",
+    "rights": "Tüm hakları saklıdır.",
+    "address": "Kayabaşı Mah. Ulubatlı Hasan Cad. No 2, Başakşehir, İstanbul"
+  },
+  "contact": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Sorularınız için bizimle iletişime geçin",
+    "name": "Ad Soyad",
+    "phone": "Telefon",
+    "country": "Ülke",
+    "message": "Mesajınız",
+    "send": "Gönder",
+    "whatsapp_msg": "Merhaba, Altis Global web sitesinden yazıyorum. Türkiye'deki konut projeleri hakkında bilgi almak istiyorum."
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Güvenilir ortağınız",
+    "text1": "Altis Global olarak, Orta Asya Türk Cumhuriyetleri vatandaşlarına — özellikle Özbekistan'dan yatırımcılara — Türkiye'de konut satın alma sürecinde kapsamlı rehberlik sunuyoruz.",
+    "text2": "Başakşehir'deki ofisimizden hizmet veren uzman ekibimiz; dil engeli, hukuki belirsizlik ve kültürel farklılıklar nedeniyle yabancı alıcıların yaşadığı güçlükleri ortadan kaldırmak için kurulmuştur.",
+    "text3": "Sadece ev satmıyoruz. Sizi doğru projeyle buluşturuyoruz, seyahat ve konaklama organizasyonundan tapu teslimi ve vatandaşlık başvurusuna kadar her süreçte yanınızda oluyoruz."
+  }
+}

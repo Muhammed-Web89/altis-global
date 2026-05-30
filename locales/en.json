@@ -1,0 +1,113 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "cta": "Get Consultation"
+  },
+  "hero": {
+    "tagline": "Safe Investment in Turkey, Your Dream Home Awaits",
+    "subtitle": "Comprehensive real estate consultancy for foreign investors — from property purchase to Turkish citizenship, we're with you every step of the way.",
+    "btn_projects": "View Projects",
+    "btn_contact": "Free Consultation"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need to buy property in Turkey",
+    "realty_title": "Real Estate Agency",
+    "realty_desc": "We offer comprehensive services to find the most suitable apartment from our partner housing projects. We've personally inspected every project.",
+    "consulting_title": "Investment Consulting",
+    "consulting_desc": "Make the right decision with our expert team covering the legal, financial, and tax aspects of real estate investments in Turkey.",
+    "citizenship_title": "Citizenship Consulting",
+    "citizenship_desc": "We provide full legal support and process management for Turkish citizenship applications through real estate investment of $400,000 and above.",
+    "transfer_title": "Hotel & Transfer Services",
+    "transfer_desc": "From your arrival in Istanbul to property handover — VIP transfer, hotel reservations and interpretation services throughout your stay.",
+    "legal_title": "Legal Support",
+    "legal_desc": "Our experienced legal team handles contract review, title deed registration, notary approvals, and tax number registration.",
+    "translation_title": "Translation & Documents",
+    "translation_desc": "Professional interpretation and official document preparation services in Uzbek, Russian, Turkish, and English."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Carefully selected residential projects",
+    "view_all": "View All Projects",
+    "details": "View Details",
+    "price_from": "Price",
+    "from": "from",
+    "rooms": "Rooms",
+    "area": "sqm",
+    "delivery": "Delivery",
+    "location": "Location"
+  },
+  "why": {
+    "title": "Why Altis Global?",
+    "subtitle": "Trust, transparency and continuous support",
+    "stat1_val": "500+",
+    "stat1_label": "Happy Clients",
+    "stat2_val": "50+",
+    "stat2_label": "Partner Projects",
+    "stat3_val": "5+",
+    "stat3_label": "Years Experience",
+    "stat4_val": "4",
+    "stat4_label": "Languages",
+    "r1_title": "On-Site Inspection",
+    "r1_desc": "We've personally visited and inspected all projects. Zero risk of misinformation.",
+    "r2_title": "Transparent Pricing",
+    "r2_desc": "No hidden fees. Commission information is clarified from the start.",
+    "r3_title": "After-Sales Support",
+    "r3_desc": "We stay by your side after receiving your title deed — occupancy permit, rental management and citizenship process.",
+    "r4_title": "Multilingual Team",
+    "r4_desc": "Our expert team speaks Turkish, Uzbek, Russian and English — answering your questions instantly."
+  },
+  "process": {
+    "title": "How We Work",
+    "subtitle": "Your property ownership journey in 4 steps",
+    "step1_title": "Free Consultation",
+    "step1_desc": "Contact us via WhatsApp or phone. Let's determine your budget, preferences and investment goals together.",
+    "step2_title": "Project Selection",
+    "step2_desc": "We present projects suited to your needs. We share video tours, virtual visits and detailed information.",
+    "step3_title": "Turkey Visit",
+    "step3_desc": "VIP transfer welcome upon your arrival in Istanbul. Visit projects in person and reserve the apartment you like.",
+    "step4_title": "Title Deed & Registration",
+    "step4_desc": "Purchase agreement, payment plan, title deed transfer, and citizenship application if desired — we're with you at every step."
+  },
+  "testimonials": {
+    "title": "What Our Clients Say",
+    "subtitle": "Experiences of successful investors"
+  },
+  "cta": {
+    "title": "Ready to Own Property in Turkey?",
+    "subtitle": "Get a free consultation today. Our expert team is ready to answer all your questions.",
+    "whatsapp": "Message on WhatsApp",
+    "call": "Call Now"
+  },
+  "footer": {
+    "desc": "We offer comprehensive consultancy services to foreign investors for property purchase, investment and citizenship in Turkey.",
+    "links_title": "Quick Links",
+    "services_title": "Our Services",
+    "contact_title": "Contact",
+    "rights": "All rights reserved.",
+    "address": "Kayabaşı Mah. Ulubatlı Hasan Cad. No 2, Başakşehir, Istanbul"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for your questions",
+    "name": "Full Name",
+    "phone": "Phone",
+    "country": "Country",
+    "message": "Your Message",
+    "send": "Send",
+    "whatsapp_msg": "Hello, I'm writing from the Altis Global website. I would like to get information about housing projects in Turkey."
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your trusted partner",
+    "text1": "At Altis Global, we provide comprehensive guidance to citizens of Central Asian Turkish Republics — especially investors from Uzbekistan — in purchasing property in Turkey.",
+    "text2": "Our expert team, serving from our office in Başakşehir, was established to eliminate the difficulties foreign buyers face due to language barriers, legal uncertainty, and cultural differences.",
+    "text3": "We don't just sell homes. We connect you with the right project, and stay by your side from travel and accommodation arrangements to title deed delivery and citizenship application."
+  }
+}
